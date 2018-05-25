@@ -4,6 +4,3 @@ class Worker
     false
   end
 end
-
-worker = Worker.new
-puts(worker.has_work?(day_of_week: :Monday, holiday: true))
