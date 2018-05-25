@@ -1,0 +1,16 @@
+spec:
+  description: Has Work
+  scenarios:
+    - Day Type:
+      - Holiday
+      - Regular
+    - Day of Week:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+  outcomes:
+    'Has Work': Regular day & !(Saturday|Sunday)
+  opposite: Rest Day
